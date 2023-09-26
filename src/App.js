@@ -9,7 +9,6 @@ import Dashboard from './components/Dashboard'
 const App = () => {
   return (
     <div className='h-screen flex flex-col'>
-      v
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/restaurant/:slug' element={<Menu />} />

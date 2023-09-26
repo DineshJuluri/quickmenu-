@@ -30,7 +30,7 @@ const Menu = () => {
   return (
     <div className="container flex justify-center flex-col">
       <div className="flex justify-center items-center h-10 font-semibold text-white mx-auto bg-violet-500 container">
-        <h1 className="text-base	">
+        <h1 className="text-base">
           <i className="fa-solid fa-utensils"></i>&nbsp;&nbsp;{restaurant.name}&nbsp;&nbsp;
           <i className="fa-solid fa-utensils"></i>
         </h1>
